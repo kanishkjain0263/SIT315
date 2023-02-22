@@ -13,7 +13,7 @@ void setup() {
 void loop() {
     motionDetected = digitalRead(PIR_PIN); // reading the value from sensor to detect motion
 
-    if (motionDetected == HIGH) {       // Motion detected
+    if (motionDetected == 1) {       // Motion detected
         digitalWrite(LED_BUILTIN, HIGH);
         Serial.println("Motion Detected");
     
