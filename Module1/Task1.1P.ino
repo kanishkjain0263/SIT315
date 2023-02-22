@@ -15,7 +15,7 @@ void loop() {
 
     if (motionDetected == 1) {       // Motion detected
         digitalWrite(LED_BUILTIN, HIGH);
-        Serial.println("Motion Detected");
+        Serial.println("Interrupted");
     
         delay(500); 
     }
